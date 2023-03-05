@@ -47,6 +47,8 @@ Evolusi distribusi Linux Debian dimulai pada tahun 1993 ketika Ian Murdock mengu
 ### Ubuntu 
 Evolusi distribusi Linux Ubuntu dimulai pada tahun 2004 ketika Canonical Ltd, perusahaan swasta yang didirikan oleh Mark Shuttleworth, mengumumkan pengembangan distribusi Linux yang berbasis pada Debian. Ubuntu didesain untuk menjadi distribusi Linux yang mudah digunakan dan dikembangkan, dengan tampilan antarmuka pengguna yang modern dan dukungan untuk perangkat keras yang luas. Selain itu, Ubuntu juga menawarkan manajemen paket yang mudah digunakan dan sistem konfigurasi yang terpusat. Ubuntu menjadi salah satu distribusi Linux paling populer dan banyak digunakan di desktop dan laptop.
 
+### Perbedaan Debian dan Ubuntu
+
 Perbedaan utama antara Debian dan Ubuntu adalah dalam desain dan fokus pengembangan. Debian lebih fokus pada stabilitas dan fleksibilitas sistem, sedangkan Ubuntu lebih fokus pada kemudahan penggunaan dan pengembangan. Debian juga lebih cocok untuk pengguna yang sudah memiliki pengalaman dengan Linux dan ingin mengatur sistem mereka dengan lebih banyak pilihan, sedangkan Ubuntu lebih cocok untuk pengguna yang baru menggunakan Linux atau ingin menginstal dan menggunakan sistem dengan cepat dan mudah. Namun, keduanya memiliki dukungan komunitas yang besar dan terus berkembang, dan keduanya terus memperbarui dan meningkatkan fitur dan fungsionalitas mereka seiring waktu. Meskipun demikian, semua distribusi Linux didasarkan pada kernel Linux dan memungkinkan pengguna untuk menggunakan perangkat lunak open-source secara gratis.
 
 ---
@@ -93,20 +95,9 @@ Untuk melakukan setting repository pada sistem operasi Linux Debian, berikut ini
 2. Ketikkan perintah berikut untuk mengedit file sources.list: `sudo nano /etc/apt/sources.list`
 3. File sources.list akan terbuka pada text editor nano. Pada file ini, akan terlihat daftar repository yang telah diatur pada sistem operasi Linux Debian. Anda dapat menambahkan repository baru pada file ini.
 ![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/dda68df4c0ea42e0c58eab91b6997f71091b2c69/Minggu%202/Setting%20Repository.png)
-5. Untuk menambahkan repository baru, Anda dapat menambahkan baris berikut pada file sources.list:
-deb [repository-url] [distribution-name] [components]
-[repository-url]: URL dari repository yang ingin ditambahkan
-[distribution-name]: Nama distribusi Linux Debian yang digunakan (seperti "buster" untuk Debian 10)
-[components]: Komponen dari repository yang ingin ditambahkan, seperti "main", "contrib", atau "non-free"
-Sebagai contoh, jika Anda ingin menambahkan repository Debian Multimedia pada Debian 10, Anda dapat menambahkan baris berikut pada file sources.list:
-
-javascript
-Copy code
-deb http://www.deb-multimedia.org buster main non-free
-Setelah menambahkan baris tersebut, simpan perubahan dengan menekan tombol Ctrl + X, kemudian pilih Y untuk menyimpan perubahan.
-
-Setelah selesai menambahkan repository baru, jalankan perintah berikut untuk memperbarui daftar paket pada sistem operasi Linux Debian: `sudo apt update`
-Perintah ini akan mengambil daftar paket terbaru dari semua repository yang telah diatur pada sistem operasi Linux Debian.
+5. script : `deb http: //deb.debian.org/debian bullseye main contrib non-free` merupakan contoh repository yang kita ambil untuk semua package linux kita. Jika Anda belum mempunyai repository dapat mencarinya di Link Daftar Repository Linux. Sesuaikan Dengan Versi Linux Masing-masing.
+6. Setelah menambahkan baris tersebut, simpan perubahan dengan menekan tombol Ctrl + X, kemudian pilih Y untuk menyimpan perubahan.
+7. Setelah selesai menambahkan repository baru, jalankan perintah berikut untuk memperbarui daftar paket pada sistem operasi Linux Debian: `sudo apt update` Perintah ini akan mengambil daftar paket terbaru dari semua repository yang telah diatur pada sistem operasi Linux Debian.
 
 Dengan demikian, repository baru sudah diatur pada sistem operasi Linux Debian. Anda dapat menginstal paket atau software baru dari repository tersebut dengan menggunakan package manager seperti APT.
 
@@ -137,9 +128,9 @@ Untuk menginstal paket net-tools di Linux Debian, ikuti langkah-langkah berikut:
 2. Jalankan perintah update untuk memperbarui daftar paket:  `apt-get update`
 3. Jalankan perintah install untuk menginstal net-tools: `apt-get install net-tools`
 4. Setelah instalasi selesai, Anda dapat memeriksa bahwa paket telah diinstal dengan benar dengan menjalankan perintah ifconfig atau netstat.
-- ifconfig
+- ifconfig\  
 ![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/dda68df4c0ea42e0c58eab91b6997f71091b2c69/Minggu%202/net-tools1.png)
-- netstat -a
+- netstat -a\   
 ![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/dda68df4c0ea42e0c58eab91b6997f71091b2c69/Minggu%202/net-tools2.png)
 5. Jika keduanya memberikan output yang valid, itu berarti net-tools telah diinstal dengan benar.
 
@@ -157,3 +148,5 @@ Untuk menginstal htop di Debian, ikuti langkah-langkah berikut:
 ![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5ff74ef7ac490e278c4a5d6b7d6f0f3ac8ba6ac2/Minggu%202/htop.png)
 
 Dalam tampilan htop, Anda dapat melihat informasi seperti penggunaan CPU dan RAM, ID proses, durasi waktu kerja, dan banyak lagi. Anda juga dapat melakukan tindakan pada proses seperti menghentikan atau mematikan proses yang tidak responsif. htop adalah alat yang sangat berguna bagi administrator sistem dan pengguna Linux yang ingin memantau kinerja sistem secara real-time.
+
+---
