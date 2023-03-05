@@ -90,13 +90,10 @@ Setiap repository pada Debian juga memiliki distribusi tertentu yang dapat dipak
 ## Setting Repository
 Untuk melakukan setting repository pada sistem operasi Linux Debian, berikut ini adalah langkah-langkahnya:
 1. Buka terminal pada sistem operasi Linux Debian.
-2. Ketikkan perintah berikut untuk mengedit file sources.list: \ sudo nano /etc/apt/sources.list \ 
-File sources.list akan terbuka pada text editor nano. Pada file ini, akan terlihat daftar repository yang telah diatur pada sistem operasi Linux Debian. Anda dapat menambahkan repository baru pada file ini.
-
-Untuk menambahkan repository baru, Anda dapat menambahkan baris berikut pada file sources.list:
-
-css
-Copy code
+2. Ketikkan perintah berikut untuk mengedit file sources.list: `sudo nano /etc/apt/sources.list`
+3. File sources.list akan terbuka pada text editor nano. Pada file ini, akan terlihat daftar repository yang telah diatur pada sistem operasi Linux Debian. Anda dapat menambahkan repository baru pada file ini.
+![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/dda68df4c0ea42e0c58eab91b6997f71091b2c69/Minggu%202/Setting%20Repository.png)
+5. Untuk menambahkan repository baru, Anda dapat menambahkan baris berikut pada file sources.list:
 deb [repository-url] [distribution-name] [components]
 [repository-url]: URL dari repository yang ingin ditambahkan
 [distribution-name]: Nama distribusi Linux Debian yang digunakan (seperti "buster" untuk Debian 10)
@@ -108,11 +105,7 @@ Copy code
 deb http://www.deb-multimedia.org buster main non-free
 Setelah menambahkan baris tersebut, simpan perubahan dengan menekan tombol Ctrl + X, kemudian pilih Y untuk menyimpan perubahan.
 
-Setelah selesai menambahkan repository baru, jalankan perintah berikut untuk memperbarui daftar paket pada sistem operasi Linux Debian:
-
-sql
-Copy code
-sudo apt update
+Setelah selesai menambahkan repository baru, jalankan perintah berikut untuk memperbarui daftar paket pada sistem operasi Linux Debian: `sudo apt update`
 Perintah ini akan mengambil daftar paket terbaru dari semua repository yang telah diatur pada sistem operasi Linux Debian.
 
 Dengan demikian, repository baru sudah diatur pada sistem operasi Linux Debian. Anda dapat menginstal paket atau software baru dari repository tersebut dengan menggunakan package manager seperti APT.
@@ -125,13 +118,14 @@ MC merupakan singkatan dari Midnight Commander. Ini adalah aplikasi manajer file
 
 Untuk menginstal Midnight Commander (MC) di Debian, ikuti langkah-langkah berikut:
 1. Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
-2. Jalankan perintah update untuk memperbarui daftar paket:\
-`apt-get update`\
-3. Jalankan perintah install untuk menginstal MC:\
-`apt-get install mc`\
-4. Setelah instalasi selesai, Anda dapat menjalankan MC dengan mengetikkan perintah berikut di terminal:\
-`mc`\
+2. Jalankan perintah update untuk memperbarui daftar paket:
+`apt-get update`
+3. Jalankan perintah install untuk menginstal MC:
+`apt-get install mc`
+4. Setelah instalasi selesai, Anda dapat menjalankan MC dengan mengetikkan perintah berikut di terminal:
+`mc`
 5. Setelah menjalankan MC, Anda dapat mulai menggunakan antarmuka pengguna Midnight Commander. Berikut adalah tampilanya:
+![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5ff74ef7ac490e278c4a5d6b7d6f0f3ac8ba6ac2/Minggu%202/mc.png)
 
 Dengan Midnight Commander, Anda dapat mengelola file dan direktori di sistem Anda dengan mudah dan efisien melalui antarmuka pengguna baris perintah. Anda dapat mengedit, menyalin, memindahkan, dan menghapus file dan direktori, serta melakukan banyak tugas lainnya. Midnight Commander adalah salah satu aplikasi manajer file teks terbaik yang tersedia untuk sistem Linux dan sangat berguna untuk pengguna yang lebih suka menggunakan antarmuka baris perintah.
 
@@ -139,26 +133,15 @@ Dengan Midnight Commander, Anda dapat mengelola file dan direktori di sistem And
 Net-tools adalah kumpulan alat baris perintah yang berguna untuk memantau, mengkonfigurasi, dan mendiagnosis jaringan pada sistem Linux. Paket ini berisi alat-alat seperti ifconfig, netstat, arp, route, dan masih banyak lagi. Di Linux Debian, net-tools sering digunakan untuk mengelola jaringan dan memecahkan masalah jaringan.
 
 Untuk menginstal paket net-tools di Linux Debian, ikuti langkah-langkah berikut:
-
-Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
-
-Jalankan perintah update untuk memperbarui daftar paket:
-
-sql
-Copy code
-apt-get update
-Jalankan perintah install untuk menginstal net-tools:
-
-csharp
-Copy code
-apt-get install net-tools
-Setelah instalasi selesai, Anda dapat memeriksa bahwa paket telah diinstal dengan benar dengan menjalankan perintah ifconfig atau netstat.
-
-css
-Copy code
-ifconfig
-netstat -a
-Jika keduanya memberikan output yang valid, itu berarti net-tools telah diinstal dengan benar.
+1. Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
+2. Jalankan perintah update untuk memperbarui daftar paket:  `apt-get update`
+3. Jalankan perintah install untuk menginstal net-tools: `apt-get install net-tools`
+4. Setelah instalasi selesai, Anda dapat memeriksa bahwa paket telah diinstal dengan benar dengan menjalankan perintah ifconfig atau netstat.
+- ifconfig
+![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/dda68df4c0ea42e0c58eab91b6997f71091b2c69/Minggu%202/net-tools1.png)
+- netstat -a
+![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/dda68df4c0ea42e0c58eab91b6997f71091b2c69/Minggu%202/net-tools2.png)
+5. Jika keduanya memberikan output yang valid, itu berarti net-tools telah diinstal dengan benar.
 
 Dengan net-tools, Anda dapat memantau, mengkonfigurasi, dan mendiagnosis jaringan pada sistem Linux dengan mudah. Alat-alat yang disediakan oleh net-tools dapat membantu Anda mengelola interface jaringan, memeriksa koneksi jaringan, mengetahui informasi tentang routing jaringan, dan masih banyak lagi. Net-tools adalah alat yang sangat berguna untuk administrator sistem dan pengguna Linux yang berurusan dengan jaringan secara teratur.
 
@@ -167,12 +150,10 @@ htop adalah sebuah utilitas sistem untuk Linux yang menampilkan informasi tentan
 
 Untuk menginstal htop di Debian, ikuti langkah-langkah berikut:
 1. Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
-2. Jalankan perintah update untuk memperbarui daftar paket:\
-`apt-get update`
-3. Jalankan perintah install untuk menginstal htop:\
-`apt-get install htop`
-4. Setelah instalasi selesai, Anda dapat menjalankan htop dengan mengetikkan perintah berikut di terminal:\
-`htop`
+2. Jalankan perintah update untuk memperbarui daftar paket: `apt-get update`
+3. Jalankan perintah install untuk menginstal htop: `apt-get install htop`
+4. Setelah instalasi selesai, Anda dapat menjalankan htop dengan mengetikkan perintah berikut di terminal: `htop`
 5. Setelah itu, tampilan interaktif htop akan muncul, menampilkan daftar proses yang sedang berjalan pada sistem Anda.
+![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5ff74ef7ac490e278c4a5d6b7d6f0f3ac8ba6ac2/Minggu%202/htop.png)
 
 Dalam tampilan htop, Anda dapat melihat informasi seperti penggunaan CPU dan RAM, ID proses, durasi waktu kerja, dan banyak lagi. Anda juga dapat melakukan tindakan pada proses seperti menghentikan atau mematikan proses yang tidak responsif. htop adalah alat yang sangat berguna bagi administrator sistem dan pengguna Linux yang ingin memantau kinerja sistem secara real-time.
