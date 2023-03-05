@@ -168,11 +168,11 @@ htop adalah sebuah utilitas sistem untuk Linux yang menampilkan informasi tentan
 Untuk menginstal htop di Debian, ikuti langkah-langkah berikut:
 1. Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
 2. Jalankan perintah update untuk memperbarui daftar paket:\
-`apt-get update`\
+`apt-get update`
 3. Jalankan perintah install untuk menginstal htop:\
-`apt-get install htop`\
+`apt-get install htop`
 4. Setelah instalasi selesai, Anda dapat menjalankan htop dengan mengetikkan perintah berikut di terminal:\
-`htop`\
+`htop`
 5. Setelah itu, tampilan interaktif htop akan muncul, menampilkan daftar proses yang sedang berjalan pada sistem Anda.
 
 Dalam tampilan htop, Anda dapat melihat informasi seperti penggunaan CPU dan RAM, ID proses, durasi waktu kerja, dan banyak lagi. Anda juga dapat melakukan tindakan pada proses seperti menghentikan atau mematikan proses yang tidak responsif. htop adalah alat yang sangat berguna bagi administrator sistem dan pengguna Linux yang ingin memantau kinerja sistem secara real-time.
