@@ -74,7 +74,9 @@ Package manager yang populer pada sistem operasi Linux adalah Advanced Packaging
 
 Pada umumnya, package maintenance pada sistem operasi Linux dilakukan secara reguler untuk memastikan bahwa sistem operasi Linux tetap aman, stabil, dan up-to-date dengan patch keamanan terbaru. Pengguna juga dapat mengelola paket atau software secara manual dengan menggunakan package manager yang tersedia pada sistem operasi Linux.
 
-### Arti dari Versi di Repository
+---
+
+## Arti dari Versi di Repository
 Repository pada sistem operasi Linux Debian adalah tempat penyimpanan paket software yang telah dikompilasi untuk distribusi Debian. Setiap repository terdiri dari paket-paket software yang telah disediakan oleh pengembang atau komunitas Debian.
 
 Setiap paket software pada repository Debian memiliki nomor versi. Nomor versi pada paket software di Debian terdiri dari tiga bagian: nomor utama (major), nomor minor (minor), dan revisi (patch). Misalnya, versi paket "apache2" pada Debian 10 adalah 2.4.38-3+deb10u5, dimana 2.4.38 adalah nomor versi utama, 3 adalah nomor versi minor, dan +deb10u5 adalah revisi.
@@ -83,7 +85,9 @@ Nomor versi pada paket software di Debian biasanya berisi informasi tentang pemb
 
 Setiap repository pada Debian juga memiliki distribusi tertentu yang dapat dipakai oleh pengguna Debian. Sebagai contoh, repository "main" pada Debian 10 memiliki distribusi "buster". Distribusi ini menunjukkan bahwa paket-paket pada repository tersebut disediakan untuk distribusi Debian 10 "buster". Pada setiap distribusi Debian, paket-paket software yang terdapat pada repository tersebut dapat disesuaikan dengan kebutuhan pengguna Debian.
 
-### Setting Repository
+--- 
+
+## Setting Repository
 Untuk melakukan setting repository pada sistem operasi Linux Debian, berikut ini adalah langkah-langkahnya:
 1. Buka terminal pada sistem operasi Linux Debian.
 2. Ketikkan perintah berikut untuk mengedit file sources.list: \ sudo nano /etc/apt/sources.list \ 
@@ -113,8 +117,62 @@ Perintah ini akan mengambil daftar paket terbaru dari semua repository yang tela
 
 Dengan demikian, repository baru sudah diatur pada sistem operasi Linux Debian. Anda dapat menginstal paket atau software baru dari repository tersebut dengan menggunakan package manager seperti APT.
 
-### Arti dari Repository
-### Cari Instalasi Package
-#### MC
-#### Net-tools
-#### Htop
+---
+
+## Cari Instalasi Package
+### MC
+MC merupakan singkatan dari Midnight Commander. Ini adalah aplikasi manajer file berbasis teks yang populer di lingkungan Linux. Midnight Commander dirancang untuk memudahkan pengguna dalam mengelola file dan direktori di sistem mereka melalui antarmuka pengguna baris perintah.
+
+Untuk menginstal Midnight Commander (MC) di Debian, ikuti langkah-langkah berikut:
+1. Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
+2. Jalankan perintah update untuk memperbarui daftar paket:\
+`apt-get update`\
+3. Jalankan perintah install untuk menginstal MC:\
+`apt-get install mc`\
+4. Setelah instalasi selesai, Anda dapat menjalankan MC dengan mengetikkan perintah berikut di terminal:\
+`mc`\
+5. Setelah menjalankan MC, Anda dapat mulai menggunakan antarmuka pengguna Midnight Commander. Berikut adalah tampilanya:
+
+Dengan Midnight Commander, Anda dapat mengelola file dan direktori di sistem Anda dengan mudah dan efisien melalui antarmuka pengguna baris perintah. Anda dapat mengedit, menyalin, memindahkan, dan menghapus file dan direktori, serta melakukan banyak tugas lainnya. Midnight Commander adalah salah satu aplikasi manajer file teks terbaik yang tersedia untuk sistem Linux dan sangat berguna untuk pengguna yang lebih suka menggunakan antarmuka baris perintah.
+
+### Net-tools
+Net-tools adalah kumpulan alat baris perintah yang berguna untuk memantau, mengkonfigurasi, dan mendiagnosis jaringan pada sistem Linux. Paket ini berisi alat-alat seperti ifconfig, netstat, arp, route, dan masih banyak lagi. Di Linux Debian, net-tools sering digunakan untuk mengelola jaringan dan memecahkan masalah jaringan.
+
+Untuk menginstal paket net-tools di Linux Debian, ikuti langkah-langkah berikut:
+
+Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
+
+Jalankan perintah update untuk memperbarui daftar paket:
+
+sql
+Copy code
+apt-get update
+Jalankan perintah install untuk menginstal net-tools:
+
+csharp
+Copy code
+apt-get install net-tools
+Setelah instalasi selesai, Anda dapat memeriksa bahwa paket telah diinstal dengan benar dengan menjalankan perintah ifconfig atau netstat.
+
+css
+Copy code
+ifconfig
+netstat -a
+Jika keduanya memberikan output yang valid, itu berarti net-tools telah diinstal dengan benar.
+
+Dengan net-tools, Anda dapat memantau, mengkonfigurasi, dan mendiagnosis jaringan pada sistem Linux dengan mudah. Alat-alat yang disediakan oleh net-tools dapat membantu Anda mengelola interface jaringan, memeriksa koneksi jaringan, mengetahui informasi tentang routing jaringan, dan masih banyak lagi. Net-tools adalah alat yang sangat berguna untuk administrator sistem dan pengguna Linux yang berurusan dengan jaringan secara teratur.
+
+### Htop
+htop adalah sebuah utilitas sistem untuk Linux yang menampilkan informasi tentang proses yang sedang berjalan pada sistem dan memungkinkan pengguna untuk memantau kinerja sistem secara real-time. htop menampilkan daftar proses dalam tampilan yang lebih mudah dibaca dan interaktif dibandingkan dengan utilitas sistem lainnya seperti top.
+
+Untuk menginstal htop di Debian, ikuti langkah-langkah berikut:
+1. Buka terminal dan masuk sebagai root atau gunakan sudo untuk mendapatkan akses root.
+2. Jalankan perintah update untuk memperbarui daftar paket:\
+`apt-get update`\
+3. Jalankan perintah install untuk menginstal htop:\
+`apt-get install htop`\
+4. Setelah instalasi selesai, Anda dapat menjalankan htop dengan mengetikkan perintah berikut di terminal:\
+`htop`\
+5. Setelah itu, tampilan interaktif htop akan muncul, menampilkan daftar proses yang sedang berjalan pada sistem Anda.
+
+Dalam tampilan htop, Anda dapat melihat informasi seperti penggunaan CPU dan RAM, ID proses, durasi waktu kerja, dan banyak lagi. Anda juga dapat melakukan tindakan pada proses seperti menghentikan atau mematikan proses yang tidak responsif. htop adalah alat yang sangat berguna bagi administrator sistem dan pengguna Linux yang ingin memantau kinerja sistem secara real-time.
