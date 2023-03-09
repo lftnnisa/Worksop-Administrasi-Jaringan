@@ -5,7 +5,7 @@ Kelas : 2 D4 IT B
 # Konfigurasi Route di Winbox
 
 1. Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan gambar dengan menggunakan perintah ‘#dhclient -v’
-2. <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/e29e726df54c6b3965fc7be2fde79bca3d382560/Minggu%203/1.catatIP.jpeg" alt="Kitten" title="A cute kitten" width="150" height="100" /> 
+2. <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/e29e726df54c6b3965fc7be2fde79bca3d382560/Minggu%203/1.catatIP.jpeg" alt="Kitten" title="A cute kitten" width="1500" height="1000" /> 
 ![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/e29e726df54c6b3965fc7be2fde79bca3d382560/Minggu%203/1.catatIP.jpeg)
 3. Catat IP address dan ambil screenshootnya 
 Dapat dengan mengecek di terminal dengan command ‘ip addr’ atau ‘ifconfig’
