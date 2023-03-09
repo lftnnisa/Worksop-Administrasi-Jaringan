@@ -42,43 +42,36 @@ Berikut adalah langkah-langkah menginstall winbox
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing3.jpeg" />
 7. Klik tombol + untuk menambahkan address dari router lain.
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4c167efd9c17f92395364b9ca03d364879666478/Minggu%203/images/routing4.png" />
-Pada Dst address masukkan network address dari router lain. Untuk Gateway masukkan gateway dari network tersebut. Setelah itu masukkan seluruh network yang ada.
+
+Pada Dst address masukkan network address dari router. Untuk Gateway masukkan gateway dari network tersebut. Setelah itu masukkan seluruh network yang ada.
 
 Kelompok 1
+- Network Address : 10.252.108.20
+- Gateway : 192.168.10.1  
 
-Network Address : 10.252.108.11
-Gateway : 192.168.1.1
-Kelompok 2
+Kelompok 2  
+- Network Address : 10.252.108.12  
+- Gateway : 192.168.2.1  
 
-Network Address : 10.252.108.12
-Gateway : 192.168.2.1
-Kelompok 3
+Kelompok 3  
+- Network Address : 10.252.108.13
+- Gateway : 192.168.3.1
 
-Network Address : 10.252.108.168
-Gateway : 192.168.3.1
+Kelompok 4  
+- Network Address : 10.252.108.14
+- Gateway : 192.168.4.1
+
 Kelompok 5
+- Network Address : 10.252.108.15
+- Gateway : 192.168.5.1
 
-Network Address : 10.252.108.15
-Gateway : 192.168.5.1
-Kelompok 6
-
-Network Address : 10.252.108.16
-Gateway : 192.168.6.1
 Kelompok 7
+- Network Address : 10.252.108.17
+- Gateway : 192.168.7.1
 
-Network Address : 10.252.108.17
-Gateway : 192.168.7.1
-Kelompok 10
+8. Lalu cek hasil routing apakah sudah bisa mengakses router tersebut dengan menggunakan perintah `ping`
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c0c2776a11a0065586cd5709df9a9598a22f87a/Minggu%203/images/routing5.jpeg"/>
 
-Network Address : 10.252.108.20
-Gateway : 192.168.10.1
-
-<img src="" /><img src="" />
-
-Tambahkan routing table pada Ranker
-Ranter sehinssa anda bisa
-akses ke selurch. Subnet
-192.168. X . X
 
 ## Instalasi Virtual Box 
 5) Install Virtul box
