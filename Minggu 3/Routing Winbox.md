@@ -23,7 +23,7 @@ Berikut adalah langkah-langkah menginstall winbox
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/5.OpenWinbox.jpeg" />
 6. Maka tampilan winbox akan seperti gambar di bawah ini :
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg"/>
-
+7. Pilih fitur routing untuk melakukan routing sehingga bisa mengakses dan melakukan seluruh subnet pada router lain
 
 <img src="" /><img src="" /><img src="" />
 ---  
@@ -32,9 +32,15 @@ Berikut adalah langkah-langkah menginstall winbox
 1. Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan gambar dengan menggunakan perintah `#dhclient -v`
 2. Catat IP address yang ada pada router RB 3011 atau Dapat dengan mengecek di terminal dengan command ‘ip addr’ atau ‘ifconfig’dan ambil screenshootnya 
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/3fba2a180ea5927d8d6aecdebe04b3e3c667fd65/Minggu%203/images/1.catatIP.jpeg" width="" height="250" /> 
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/3fba2a180ea5927d8d6aecdebe04b3e3c667fd65/Minggu%203/images/Ether1.jpeg" width="" height="150" />  <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/Ether2.jpeg" width="" height="150" /> 
-3. Akses router RB 3011 menggunakan “winbox.exe" via wine yang telah terinstall
-4. Tambahkan routing table pada Ranker
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/3fba2a180ea5927d8d6aecdebe04b3e3c667fd65/Minggu%203/images/Ether1.jpeg" width="" height="150" /><img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/Ether2.jpeg" width="" height="150" /> 
+3. Akses router RB 3011 menggunakan “winbox.exe" via wine yang telah terinstall dengan menggunakan perintah `wine winbox.exe`. Maka tampilan akan seperti dibawah ini:
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg" />
+4. Untuk melakukan konfigurasi, terlebih dahulu masuk pada Legacy Mode 
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing1.jpeg" />
+5. Lalu klik "Neighbors", lalu pilih Mac Address anda dan klik connect. Maka tampilan akan seperti di bawah ini:
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing2.jpeg" />
+
+Tambahkan routing table pada Ranker
 Ranter sehinssa anda bisa
 akses ke selurch. Subnet
 192.168. X . X
