@@ -25,7 +25,6 @@ Berikut adalah langkah-langkah menginstall winbox
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg"/>
 7. Pilih fitur routing untuk melakukan routing sehingga bisa mengakses dan melakukan seluruh subnet pada router lain
 
-<img src="" /><img src="" /><img src="" />
 ---  
 
 ## Konfigurasi Routing di Winbox
@@ -39,6 +38,42 @@ Berikut adalah langkah-langkah menginstall winbox
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing1.jpeg" />
 5. Lalu klik "Neighbors", lalu pilih Mac Address anda dan klik connect. Maka tampilan akan seperti di bawah ini:
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing2.jpeg" />
+6. Pilih routing, untuk konfigurasi agar bisa melakukan routing atau mengaksws subnet pada router lain. Maka tampilan akan seperti gambar dibawah ini
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing3.jpeg" />
+7. Klik tombol + untuk menambahkan address dari router lain.
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4c167efd9c17f92395364b9ca03d364879666478/Minggu%203/images/routing4.png" />
+Pada Dst address masukkan network address dari router lain. Untuk Gateway masukkan gateway dari network tersebut. Setelah itu masukkan seluruh network yang ada.
+
+Kelompok 1
+
+Network Address : 10.252.108.11
+Gateway : 192.168.1.1
+Kelompok 2
+
+Network Address : 10.252.108.12
+Gateway : 192.168.2.1
+Kelompok 3
+
+Network Address : 10.252.108.168
+Gateway : 192.168.3.1
+Kelompok 5
+
+Network Address : 10.252.108.15
+Gateway : 192.168.5.1
+Kelompok 6
+
+Network Address : 10.252.108.16
+Gateway : 192.168.6.1
+Kelompok 7
+
+Network Address : 10.252.108.17
+Gateway : 192.168.7.1
+Kelompok 10
+
+Network Address : 10.252.108.20
+Gateway : 192.168.10.1
+
+<img src="" /><img src="" />
 
 Tambahkan routing table pada Ranker
 Ranter sehinssa anda bisa
