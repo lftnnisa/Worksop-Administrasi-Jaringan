@@ -1,29 +1,45 @@
-Nama : Lifta Annisa Husaina  
-NRP : 3121600045  
+### Kelompok 6
+1. Lifta Annisa Husaina (3121600045)
+2. Andriana Wahyu (3121600040)
+3. Adhika Syafrina (312160005?)
+
 Kelas : 2 D4 IT B  
 
-# Konfigurasi Route di Winbox
+## Instalasi Wine dan Winbox
+### Wine
+Berikut adalah langkah-langkah untuk instalasi wine :  
+1. Masuk sebagai root dengan menggunakan perintah `su -` 
+2. Lalu ketikkan command `apt-get install wine` atau bisa dengan menggunakan perintah `sudo apt-get install wine` apabila tidak memasuki root.
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/4.InstallWine.jpeg"/>
+3. Maka wine telah terinstall.
 
+### Winbox
+Berikut adalah langkah-langkah menginstall winbox
+1. Akses web “https://mikrotik.com/download/“
+2. Download apk winbox dengan format .exe sesuai spesifikasi PC anda
+3. Setelah terinstall, buka "winbox.exe" dengan menggunakan command `wine winbox.exe` pada terminal linux
+4. Apabila terdapat eror "it looks like wine32 is missing, you should install it. as root, please execute `apt-get install wine32`", maka ketikkan perintah tersebut pada terminal sebagai root untuk mendownload paket yang hilang. Lalu ketikkan perintah `apt-get update`
+5. Setelah itu, jalankan kembali pada terminal dengan menggunakan perintah `wine winbox.exe`
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/5.OpenWinbox.jpeg" />
+6. Maka tampilan winbox akan seperti gambar di bawah ini :
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg"/>
+
+
+<img src="" /><img src="" /><img src="" />
+---  
+
+## Konfigurasi Routing di Winbox
 1. Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan gambar dengan menggunakan perintah `#dhclient -v`
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/e29e726df54c6b3965fc7be2fde79bca3d382560/Minggu%203/1.catatIP.jpeg" alt="Kitten" title="A cute kitten" width="" height="250" /> 
-3. Catat IP address dan ambil screenshootnya 
-Dapat dengan mengecek di terminal dengan command ‘ip addr’ atau ‘ifconfig’
-
+2. Catat IP address yang ada pada router RB 3011 atau Dapat dengan mengecek di terminal dengan command ‘ip addr’ atau ‘ifconfig’dan ambil screenshootnya 
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/3fba2a180ea5927d8d6aecdebe04b3e3c667fd65/Minggu%203/images/1.catatIP.jpeg" width="" height="250" /> 
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/3fba2a180ea5927d8d6aecdebe04b3e3c667fd65/Minggu%203/images/Ether1.jpeg" width="" height="150" />  <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/Ether2.jpeg" width="" height="150" /> 
 3. Akses router RB 3011 menggunakan “winbox.exe" via wine yang telah terinstall
-a. Apabila winbox belum terinstall, anda dapat menginstall terlebih dahulu di “https://mikrotik.com/download/“
-
-b. Apabila wine belum terinstall, maka installah terlebih dahulu dengan masuk ke root ‘su -‘ lalu ketikkan command ‘apt-get install wine’ atau bisa dengan menggunakan perintah ‘sudo apt-get install wine’ apabila tidak memasuki root.
-
-c. Lalu buka “winbox.exe” dengan menggunakan command ‘wine winbox.exe’
-
-d. Maka tampilan winbox akan seperti gambar di bawah ini: 
-
-
-1. 
--4) Tambahkan routing table pada Ranker
+4. Tambahkan routing table pada Ranker
 Ranter sehinssa anda bisa
 akses ke selurch. Subnet
 192.168. X . X
+
+## Instalasi Virtual Box 
 5) Install Virtul box
 denzan menyaunatan petrijut deri
 behate virtual box. (Instalas aght tricky , perly sedket exploie te.
