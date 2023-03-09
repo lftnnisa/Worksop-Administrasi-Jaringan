@@ -1,13 +1,14 @@
-Nama : Lifta Annisa Husaina
-NRP : 3121600045
-Kelas : 2 D4 IT B
+Nama : Lifta Annisa Husaina  
+NRP : 3121600045  
+Kelas : 2 D4 IT B  
 
-Konfigurasi Route di Winbox
+# Konfigurasi Route di Winbox
 
 1. Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan gambar dengan menggunakan perintah ‘#dhclient -v’
-2. Catat IP address dan ambil screenshootnya 
+![Alt Text](https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/e29e726df54c6b3965fc7be2fde79bca3d382560/Minggu%203/1.catatIP.jpeg)
+3. Catat IP address dan ambil screenshootnya 
 Dapat dengan mengecek di terminal dengan command ‘ip addr’ atau ‘ifconfig’
-![Alt Text]()
+
 3. Akses router RB 3011 menggunakan “winbox.exe" via wine yang telah terinstall
 a. Apabila winbox belum terinstall, anda dapat menginstall terlebih dahulu di “https://mikrotik.com/download/“
 
