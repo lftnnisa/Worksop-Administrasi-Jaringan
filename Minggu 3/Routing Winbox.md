@@ -72,6 +72,8 @@ Kelompok 7
 8. Lalu cek hasil routing apakah sudah bisa mengakses router tersebut dengan menggunakan perintah `ping`
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c0c2776a11a0065586cd5709df9a9598a22f87a/Minggu%203/images/routing5.jpeg"/>
 
+9. Berikut adalah tabel routingnya:
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/bcdbd387fd72d3488033fef63c2a9ee0c5272935/Minggu%203/images/routing6.jpeg"/>
 
 ## Instalasi Virtual Box 
 5) Install Virtul box
