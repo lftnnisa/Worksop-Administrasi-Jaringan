@@ -107,6 +107,7 @@ Ketika sudah menginstall virtualbox, kita perlu men-setting virtual machine untu
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/VirtualMachine4.png"/> 
 
 Setelah setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
+
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/InstallUbuntu.png">
 
 
