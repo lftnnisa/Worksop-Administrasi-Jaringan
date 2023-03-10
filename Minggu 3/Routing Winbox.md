@@ -79,15 +79,15 @@ Kelompok 7
 
 ## Instalasi Virtual Box
 1. Mendownloadinstallasi virtualbox di https://www.virtualbox.org/wiki/Downloads kemudian memilih Linux Distribution dan memilih versi dari debian kita.
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/download%20VB.png" /> 
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/download%20VB.png" height="150" /> 
 2. Sebelummelakukan installasi VirtualBox kita perlu untuk mengupdate package list dari debian kita dengan menjalankan perintah `sudo apt update` diterminal juga menjalankan perintah `sudo apt install build-essential dkms` untuk menginstal essentials linux kernels
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/vb1.jpeg" width="" height="150" />
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/vb1.jpeg" width="" height="500" />
 3. Ketika terdapat error, masuk ke akun root dan menjalankan perintah `apt --fix-broken isntall`untuk menanganinya.
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/vb2.jpeg" width="" height="150" />
 4. pergi ke direktori download dengan perintah `cd-Download` kemudian menggunakan perintah ls untuk melihat isi direktori dan memeriksa paket tersebut tersedia. Kemudian untuk menginstall paket Virtualbox.deb menjalankan perintah `sudo dpkg -i virtualbox-6.1_6.1.34-150636.1~Debian~bullseye_amd64.deb` di terminal.
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/b4fba8a2e2890146caca07cf15c53d3a3b6e250d/Minggu%203/images/vb3.jpeg" width="" height="150" />
-5. Setelah itu menjalankan perintah `sudo apt install -f` di terminal untuk memasang paket tersebut.
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/b4fba8a2e2890146caca07cf15c53d3a3b6e250d/Minggu%203/images/vb4.jpeg" width="" height="150" />
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/b4fba8a2e2890146caca07cf15c53d3a3b6e250d/Minggu%203/images/vb3.jpeg" width="" height="500" />
+5. Setelah itu menjalankan perintah `sudo apt install -f` di terminal untuk memaksa memasang paket tersebut.
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/b4fba8a2e2890146caca07cf15c53d3a3b6e250d/Minggu%203/images/vb4.jpeg" width="" height="500" />
 6. VirtualBox sudah terpasang.
 
 ## Instalasi Ubuntu
