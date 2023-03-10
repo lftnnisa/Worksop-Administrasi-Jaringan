@@ -79,7 +79,7 @@ Kelompok 7
 
 ## Instalasi Virtual Box
 1. Mendownloadinstallasi virtualbox di https://www.virtualbox.org/wiki/Downloads kemudian memilih Linux Distribution dan memilih versi dari debian kita.
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/download%20VB.png" height="150" /> 
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/download%20VB.png" height="250" /> 
 2. Sebelummelakukan installasi VirtualBox kita perlu untuk mengupdate package list dari debian kita dengan menjalankan perintah `sudo apt update` diterminal juga menjalankan perintah `sudo apt install build-essential dkms` untuk menginstal essentials linux kernels
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/vb1.jpeg" width="" height="500" />
 3. Ketika terdapat error, masuk ke akun root dan menjalankan perintah `apt --fix-broken isntall`untuk menanganinya.
