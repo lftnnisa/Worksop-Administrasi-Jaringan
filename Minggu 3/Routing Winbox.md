@@ -93,29 +93,21 @@ Kelompok 7
 ---
 ## Instalasi Ubuntu
 Ketika sudah menginstall virtualbox, kita perlu men-setting virtual machine untuk menginstall ubuntu
-Sebelum memulai penginstallan, persiapkanlah file .ISO ubuntu
 
 - Beri nama virtual machine dan OS yang akan diinstall
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/d2f603871ffea6cadf45c0e035eac08c2bac66cb/Minggu%203/images/VirtualMachine1.png"/>
 
 - Tentukan jumlah memori dan yang digunakan untuk virtual OS
-! (https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4caf44e22847e9984447d593eb8d49f6d228620a/Minggu%203/images/VirtualMachine2.png)
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/VirtualMachine2.png"/>
 
 - Tentukan jumlah storage dan yang digunakan untuk virtual OS
-<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux3.jpg">
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/VirtualMachine3.png"/>
 
-- Berikut adalah summary dari setting yang sudah disetting tadi
-<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux4.jpg"> 
+- Berikut adalah summary dari setting yang sudah dilakukan sebelumnya
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/VirtualMachine4.png"/> 
 
-Setelah install virtualbox dan setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
-
-
-<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux5.jpg">
-
-Setelah install virtualbox dan setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
-
-
-<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux5.jpg">
+Setelah setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/InstallUbuntu.png">
 
 
 
