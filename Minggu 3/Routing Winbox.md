@@ -92,4 +92,30 @@ Kelompok 7
 
 ---
 ## Instalasi Ubuntu
-Sebelum memulai penginstallan, persiapkanlah file .ISO ubuntu untuk memulai penginstallan
+Ketika sudah menginstall virtualbox, kita perlu men-setting virtual machine untuk menginstall ubuntu
+Sebelum memulai penginstallan, persiapkanlah file .ISO ubuntu
+
+- Beri nama virtual machine dan OS yang akan diinstall
+! (https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4caf44e22847e9984447d593eb8d49f6d228620a/Minggu%203/images/VirtualMachine1.png)
+
+- Tentukan jumlah memori dan yang digunakan untuk virtual OS
+! (https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4caf44e22847e9984447d593eb8d49f6d228620a/Minggu%203/images/VirtualMachine2.png)
+
+- Tentukan jumlah storage dan yang digunakan untuk virtual OS
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux3.jpg">
+
+- Berikut adalah summary dari setting yang sudah disetting tadi
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux4.jpg"> 
+
+Setelah install virtualbox dan setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
+
+
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux5.jpg">
+
+Setelah install virtualbox dan setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
+
+
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux5.jpg">
+
+
+
