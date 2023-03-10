@@ -75,8 +75,14 @@ Kelompok 7
 9. Berikut adalah tabel routingnya:
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/bcdbd387fd72d3488033fef63c2a9ee0c5272935/Minggu%203/images/routing6.jpeg"/>
 
-## Instalasi Virtual Box 
+---
+
+## Instalasi Virtual Box
 5) Install Virtul box
 denzan menyaunatan petrijut deri
 behate virtual box. (Instalas aght tricky , perly sedket exploie te.
 lupendener , tentarne le packag
+
+---
+
+## Instalasi Ubuntu
