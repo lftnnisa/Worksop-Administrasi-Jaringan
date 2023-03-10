@@ -1,7 +1,7 @@
 ### Kelompok 6
 1. Lifta Annisa Husaina (3121600045)
 2. Andriana Wahyu (3121600040)
-3. Adhika Syafrina (312160005?)
+3. Adhika Syafrina (3121600058)
 
 Kelas : 2 D4 IT B  
 
