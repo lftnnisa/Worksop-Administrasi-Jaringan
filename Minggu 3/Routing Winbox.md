@@ -83,6 +83,19 @@ denzan menyaunatan petrijut deri
 behate virtual box. (Instalas aght tricky , perly sedket exploie te.
 lupendener , tentarne le packag
 
----
+1. Mendownloadinstallasi virtualbox di https://www.virtualbox.org/wiki/Downloads kemudian memilih Linux Distribution dan memilih versi dari debian kita.
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/download%20VB.png" width="" height="250" /> 
+2. Sebelummelakukan installasi VirtualBox kita perlu untuk mengupdate package list dari debian kita dengan menjalankan perintah `sudo apt update` diterminal juga menjalankan perintah `sudo apt install build-essential dkms` untuk menginstal essentials linux kernels
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/vb1.jpeg" width="" height="150" />
+3. Ketika terdapat error, masuk ke akun root dan menjalankan perintah `apt --fix-broken isntall`untuk menanganinya.
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/2c1c32ebc4f70cf46003530de23ebc0f6da5b9e8/Minggu%203/images/vb2.jpeg" width="" height="150" />
+5. Untuk melakukan konfigurasi, terlebih dahulu masuk pada Legacy Mode 
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing1.jpeg" />
+5. Lalu klik "Neighbors", lalu pilih Mac Address anda dan klik connect. Maka tampilan akan seperti di bawah ini:
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing2.jpeg" />
+6. Pilih routing, untuk konfigurasi agar bisa melakukan routing atau mengaksws subnet pada router lain. Maka tampilan akan seperti gambar dibawah ini
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing3.jpeg" />
+7. Klik tombol + untuk menambahkan address dari router lain.
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4c167efd9c17f92395364b9ca03d364879666478/Minggu%203/images/routing4.png" />
 
 ## Instalasi Ubuntu
