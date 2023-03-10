@@ -88,6 +88,6 @@ Kelompok 7
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/b4fba8a2e2890146caca07cf15c53d3a3b6e250d/Minggu%203/images/vb3.jpeg" width="" height="500" />
 5. Setelah itu menjalankan perintah `sudo apt install -f` di terminal untuk memaksa memasang paket tersebut.
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/b4fba8a2e2890146caca07cf15c53d3a3b6e250d/Minggu%203/images/vb4.jpeg" width="" height="500" />
-6. VirtualBox sudah terpasang.
+6. VirtualBox berhasil diinstall.
 
 ## Instalasi Ubuntu
