@@ -12,7 +12,7 @@ Berikut adalah langkah-langkah untuk instalasi wine :
 2. Lalu ketikkan command `apt-get install wine` atau bisa dengan menggunakan perintah `sudo apt-get install wine` apabila tidak memasuki root.
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/4.InstallWine.jpeg"/>
 3. Maka wine telah terinstall.
-
+---
 ### Winbox
 Berikut adalah langkah-langkah menginstall winbox
 1. Akses web “https://mikrotik.com/download/“
@@ -24,26 +24,17 @@ Berikut adalah langkah-langkah menginstall winbox
 6. Maka tampilan winbox akan seperti gambar di bawah ini :
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg"/>
 7. Pilih fitur routing untuk melakukan routing sehingga bisa mengakses dan melakukan seluruh subnet pada router lain
-
 ---  
-
 ## Konfigurasi Routing di Winbox
--	Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan menyetting ip dan interface
-
--	Routing default gateway dari Ip rout ke gateway sesuai topologi
--	Setting dhcp server via dhcp setup -> rangenya dari 192. 100-254
--	Sambungkan pc/laptop ke jaringan anda, Cek ip address pastikan ip address dari pc mendapatkan ip address dari router dari dhcp server
-
-2. Catat IP address yang ada pada router RB 3011 atau Dapat dengan mengecek di terminal dengan command ‘ip addr’ atau ‘ifconfig’dan ambil screenshootnya 
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/3fba2a180ea5927d8d6aecdebe04b3e3c667fd65/Minggu%203/images/1.catatIP.jpeg" width="" height="250" /> 
-<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/3fba2a180ea5927d8d6aecdebe04b3e3c667fd65/Minggu%203/images/Ether1.jpeg" width="" height="150" /><img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/Ether2.jpeg" width="" height="150" /> 
-3. Akses router RB 3011 menggunakan “winbox.exe" via wine yang telah terinstall dengan menggunakan perintah `wine winbox.exe`. Maka tampilan akan seperti dibawah ini:
+1. 	Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan menyetting ip dan interface dan catat IP address yang ada pada router RB 3011
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/8ae8f535ca9ecc418ff60523d06b89d206bf7419/Minggu%205/images/1.png">
+2. Akses router RB 3011 menggunakan “winbox.exe" via wine yang telah terinstall dengan menggunakan perintah `wine winbox.exe` pada terminal. Maka tampilan akan seperti dibawah ini:
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg" />
-4. Untuk melakukan konfigurasi, terlebih dahulu masuk pada Legacy Mode 
+3. Untuk melakukan konfigurasi, terlebih dahulu masuk pada Legacy Mode 
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing1.jpeg" />
-5. Lalu klik "Neighbors", lalu pilih Mac Address anda dan klik connect. Maka tampilan akan seperti di bawah ini:
+4. Lalu klik "Neighbors", lalu pilih Mac Address anda dan klik connect. Maka tampilan akan seperti di bawah ini:
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing2.jpeg" />
-6. Pilih routing, untuk konfigurasi agar bisa melakukan routing atau mengaksws subnet pada router lain. Maka tampilan akan seperti gambar dibawah ini
+5. Routing default gateway dari Ip route ke gateway sesuai topologi. Pilih routing, untuk konfigurasi agar bisa melakukan routing atau mengakses subnet pada router lain. Maka tampilan akan seperti gambar dibawah ini
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing3.jpeg" />
 7. Klik tombol + untuk menambahkan address dari router lain.
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4c167efd9c17f92395364b9ca03d364879666478/Minggu%203/images/routing4.png" />
@@ -70,9 +61,24 @@ Kelompok 5
 - Network Address : 10.252.108.15
 - Gateway : 192.168.5.1
 
+Kelompok 6
+- Network Address : 10.252.108.16
+- Gateway : 192.168.6.1
+
 Kelompok 7
 - Network Address : 10.252.108.17
 - Gateway : 192.168.7.1
+
+Kelompok 8
+- Network Address : 10.252.108.18
+- Gateway : 192.168.8.1
+
+Kelompok 9
+- Network Address : 10.252.108.19
+- Gateway : 192.168.9.1
+
+3.	Setting dhcp server via dhcp setup -> rangenya dari 192. 100-254
+4. 	Sambungkan pc/laptop ke jaringan anda, Cek ip address pastikan ip address dari pc mendapatkan ip address dari router dari dhcp server
 
 8. Lalu cek hasil routing apakah sudah bisa mengakses router tersebut dengan menggunakan perintah `ping`
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c0c2776a11a0065586cd5709df9a9598a22f87a/Minggu%203/images/routing5.jpeg"/>
