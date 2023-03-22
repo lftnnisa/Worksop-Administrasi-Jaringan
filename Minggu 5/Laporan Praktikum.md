@@ -121,23 +121,21 @@ Setelah setting virtual machine, install OS ubuntu pada virtual machine yang sud
 
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/InstallUbuntu.png">
 
-
+---
 ## Setting IP Static pada Virtual Machine
-
-
- 
--	Power up/nyalakan virtual machine anda pastikan konfigurasi jaringan ke bridge. Pastikan mendapatkan ip address dari dhcp server
-   
--	Stlh mendapat ip address dan terconnect jaringan. Konfigurasi server ip add VM menjadi static. Minimum ada 2 server. 
- 
-Settingnya ip mulai dari 192. . .10
--	Konfigurasi NTP ke 0.id.pool.htp.org , 1, 2, dst
- 
--	Konfigurasi sudo
- 
- 
--	Ganti hostname VM -> /etc/hostname server
-Servers10/kelompok1.takehome.com
+1. Power up/nyalakan virtual machine anda pastikan konfigurasi jaringan ke bridge. Pastikan mendapatkan ip address dari dhcp server
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/7.png">
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/8.png">
+2.	Setelah mendapat ip address dan terconnect jaringan. Konfigurasi server ip add VM menjadi static dengan menggunakan perintah `nano /etc/network/interfaces` pada terminal
+3.	Lalu setting ip mulai dari 192.168.1.10
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/9.png">
+4. Konfigurasi NTP ke 0.id.pool.htp.org , 1, 2, dst
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/10.png">
+5. Jika sudah, lakukan konfigurasi sudo
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/11.png">
+ <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/12.png">
+6. Setelah itu, ganti hostname VM menjadi Servers10/kelompok1.takehome.com dengan menggunakan perintah `nano /etc/hostname server`
+<img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/13.png">
  
  
 
