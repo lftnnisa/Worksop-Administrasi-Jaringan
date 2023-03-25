@@ -9,7 +9,8 @@ Kelas : 2 D4 IT B
 ### Wine
 Berikut adalah langkah-langkah untuk instalasi wine :  
 1. Masuk sebagai root dengan menggunakan perintah `su -` 
-2. Lalu ketikkan command `apt-get install wine` atau bisa dengan menggunakan perintah `sudo apt-get install wine` apabila tidak memasuki root.
+2. Pastikan sudah terhubung dengan koneksi internet karena pada saat install membutuhkan koneksi internet
+3. Lalu ketikkan command `apt-get install wine` atau bisa dengan menggunakan perintah `sudo apt-get install wine` apabila tidak memasuki root.
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/4.InstallWine.jpeg"/>
 3. Maka wine telah terinstall.
 ---
