@@ -14,6 +14,7 @@ Berikut adalah langkah-langkah untuk instalasi wine :
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/4.InstallWine.jpeg"/>
 3. Maka wine telah terinstall.
 ---
+
 ### Winbox
 Berikut adalah langkah-langkah menginstall winbox
 1. Akses web “https://mikrotik.com/download/“
@@ -38,6 +39,7 @@ Berikut adalah langkah-langkah menginstall winbox
 4. Lalu klik "Neighbors", lalu pilih Mac Address anda dan klik connect. Maka tampilan akan seperti di bawah ini:
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing2.jpeg" />
 5. Routing default gateway dari Ip route ke gateway sesuai topologi. Pilih routing, untuk konfigurasi agar bisa melakukan routing atau mengakses subnet pada router lain. Maka tampilan akan seperti gambar dibawah ini
+- ip `0.0.0.0 dst 10.252.108.212` merupakan ip dari internet PENS
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/92039e746234319ac33fcdf124d199a6af49cb62/Minggu%203/images/routing3.jpeg" />
 7. Klik tombol + untuk menambahkan address dari router lain.
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/4c167efd9c17f92395364b9ca03d364879666478/Minggu%203/images/routing4.png" />
@@ -80,13 +82,13 @@ Kelompok 9
 - Network Address : 10.252.108.19
 - Gateway : 192.168.9.1
 
-3.	Setting dhcp server via dhcp setup -> rangenya dari 192. 100-254
-4. 	Sambungkan pc/laptop ke jaringan anda, Cek ip address pastikan ip address dari pc mendapatkan ip address dari router dari dhcp server
+8.	Setting dhcp server via dhcp setup -> rangenya dari 192.168.X.100- 192.168.X.254
+9. 	Sambungkan pc/laptop ke jaringan anda, Cek ip address pastikan ip address dari pc mendapatkan ip address dari router dari dhcp server
 
-8. Lalu cek hasil routing apakah sudah bisa mengakses router tersebut dengan menggunakan perintah `ping`
+10. Lalu cek hasil routing apakah sudah bisa mengakses router tersebut dengan menggunakan perintah `ping`
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c0c2776a11a0065586cd5709df9a9598a22f87a/Minggu%203/images/routing5.jpeg"/>
 
-9. Berikut adalah tabel routingnya:
+11. Berikut adalah tabel routingnya:
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/bcdbd387fd72d3488033fef63c2a9ee0c5272935/Minggu%203/images/routing6.jpeg"/>
 
 ---
