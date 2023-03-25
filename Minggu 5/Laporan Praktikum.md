@@ -25,9 +25,11 @@ Berikut adalah langkah-langkah menginstall winbox
 6. Maka tampilan winbox akan seperti gambar di bawah ini :
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg"/>
 7. Pilih fitur routing untuk melakukan routing sehingga bisa mengakses dan melakukan seluruh subnet pada router lain
----  
+---
+
 ## Konfigurasi Routing di Winbox
-1. 	Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan menyetting ip dan interface dan catat IP address yang ada pada router RB 3011
+
+1. Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan menyetting ip dan interface dan catat IP address yang ada pada router RB 3011
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/8ae8f535ca9ecc418ff60523d06b89d206bf7419/Minggu%205/images/1.png">
 2. Akses router RB 3011 menggunakan “winbox.exe" via wine yang telah terinstall dengan menggunakan perintah `wine winbox.exe` pada terminal. Maka tampilan akan seperti dibawah ini:
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/5c3c9535c086e525bab353e8248e873480c1a04f/Minggu%203/images/6.WinboxOpened.jpeg" />
