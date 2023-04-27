@@ -1,4 +1,4 @@
-# Instalasi Web Server & FTP
+# Instalasi Web Service & FTP
 ### Dosen Pengampu
 Dr. Ferry Astika Saputra ST, M.Sc
 ### Disusun Oleh
@@ -9,45 +9,31 @@ Aditya Bagus Ferryanto - 31216000448<br>
 
 ---
 
-## Instalasi Web Server (Apache)
-
-Berikut adalah langkah-langkah instal Apache:
-
-- Memperbarui paket yang tersedia ke versi terbaru: 
-
-    ```
-    sudo apt update
-    ```
-
-- Menginstal Apache dengan menjalankan perintah berikut: 
-
-    ```
-    sudo apt install apache2
-    ```
-
+## Instalasi Web Server Apache
+#### Install Apache
+Berikut adalah langkah-langkah instal Apache
+- Memperbarui paket yang tersedia ke versi terbaru untuk mencerminkan perubahan upstream terbaru:
+    ```sudo apt update```
+- Install paket Apache2
+    ```sudo apt install apache2```
     <img src="./gambar/install_apache.JPG">
-
-Setelah instalasi selesai, Selanjutnya menyesuaikan pengaturan firewall untuk menginsinkan akses dari luar ke port web default.
-
-- Melihat list dari ufw application yang tersedia:
-
-    ```
-    sudo ufw app list
-    ```
-    
+#### Menyesuaikan Firewall
+Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan beberapa profil aplikasi yang dapat digunakan untuk mengaktifkan atau menonaktifkan akses ke Apache melalui firewall. Setelah instalasi Apache, penting untuk memodifikasi pengaturan firewall untuk memungkinkan akses luar ke port web default. Berikut adalah langkah-langkahnya:
+- Apabila belum terinstall ufw, terlebih dahulu install paket ufw
+    ```sudo apt install ufw```
+- Setelah itu, lihat list dari ufw application yang tersedia
+    ```sudo ufw app list```
     <img src="./gambar/ufw_app_list.JPG">
-
 - Untuk mengizinkan apache diakses dari jaringan public yakni port 80 untuk HTTP, menjalankan perintah:
-
-    ```
-    sudo ufw allow in 'Apache'
-    ```
+    ```sudo ufw allow 'WWW'```
+-  memverifikasi perubahan dengan memeriksa status
+    ```sudo ufw status```
+- Outputnya akan memberikan daftar lalu lintas HTTP yang diizinkan:
+    <img src="./gambar/ufw_app_list.JPG">
+#### Memeriksa Web Server
 
 - Setelah instalasi apache dan konfigurasi firewall pada langkah sebelumnya, selanjutnya mengecek status dari apache dengan perintah dibawah ini.
-
-    ```
-    sudo systemctl status apache2
-    ```
+    ```sudo systemctl status apache2```
     
     <img src="./gambar/check_apache_installation.JPG">
 
