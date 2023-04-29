@@ -43,16 +43,13 @@ Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan bebera
 
 
 
-## Instalasi MySQL
+## Instalasi Database
+Setelah memiliki server web yang aktif dan berjalan, perlu menginstal sistem basis data untuk dapat menyimpan dan mengelola data untuk situs. Di Debian, metapackage mysql-server, yang secara tradisional digunakan untuk menginstal server MySQL, digantikan oleh default-mysql-server. Metapackage ini merujuk MariaDB, garpu komunitas dari server MySQL asli oleh Oracle, dan saat ini merupakan server basis data default yang kompatibel dengan MySQL yang tersedia di repositori manajer paket berbasis Debian.
 
-Pada Ubuntu 22.04 MySQL 8 sudah dimasukan sebagai versi default di repositori Jammy Jellyfish (nama ubuntu 22.04). Berikut cara melakukan instalasi MySQL.
-
-- Melakukan instalasi MySQL dengan perintah:
-
+- Melakukan instalasi MariaDB dengan perintah:
     ```
-    sudo apt install mysql-server
+    sudo apt install mariadb-server
     ```
-
     <img src="./gambar/install_MySQL_server.JPG">
 
 - Setelah proses instalasi selesai, kemudian cek status apakah MySQL sudah berjalan dengan perintah:
@@ -71,24 +68,17 @@ Pada Ubuntu 22.04 MySQL 8 sudah dimasukan sebagai versi default di repositori Ja
 
     <img src="./gambar/mysql_version.JPG">
 
-
-
 ## Instalasi PHP
-
+PHP adalah komponen pengaturan Anda yang akan memproses kode untuk menampilkan konten dinamis kepada pengguna akhir. Itu dapat menjalankan skrip, terhubung ke basis data MariaDB Anda untuk mendapatkan informasi, dan menyerahkan konten yang diproses ke server web Anda untuk ditampilkan.
 - Menginstal PHP, modul Apache PHP serta menggunakan MySQL dengan PHP menjalankan perintah:
-
     ```
     sudo apt install php libapache2-mod-php php-mysql
     ```
-
     <img src="./gambar/install_PHP.JPG">
-
-- Setelah instalasi selesai, jalankan perintah berikut untuk mengonfirmasi versi PHP
-
+- Setelah instalasi selesai, jalankan perintah berikut untuk mengecek versi PHP
     ```
     php -v
     ```
-
     <img src="./gambar/php_version.JPG">
 
 ## Instalasi FTP Server (PROFTPD)
