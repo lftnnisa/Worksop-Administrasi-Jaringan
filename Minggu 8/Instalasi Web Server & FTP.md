@@ -20,13 +20,14 @@ Berikut adalah langkah-langkah instal Apache
     ```
     sudo apt install apache2
     ```
-    <img src="./gambar/install_apache.JPG">
+    <img src="./images/install apache.png">
 #### Menyesuaikan Firewall
 Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan beberapa profil aplikasi yang dapat digunakan untuk mengaktifkan atau menonaktifkan akses ke Apache melalui firewall. Setelah instalasi Apache, penting untuk memodifikasi pengaturan firewall untuk memungkinkan akses luar ke port web default. Berikut adalah langkah-langkahnya:
 - Apabila belum terinstall ufw, terlebih dahulu install paket ufw
     ```
     sudo apt install ufw
     ```
+    <img src="./images/install ufw.png">
 - Setelah itu, lihat list dari ufw application yang tersedia
     ```
     sudo ufw app list
@@ -36,6 +37,7 @@ Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan bebera
     ```
     sudo ufw allow 'WWW'
     ```
+    <img src="./images/allow www.png">
 -  memverifikasi perubahan dengan memeriksa status
     ```
     sudo ufw status
@@ -52,10 +54,7 @@ Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan bebera
     <img src="./gambar/check_apache_installation.JPG">
 
 - Untuk memastikan berjalan dengan cara mengakses alamat IP dari server atau komputer yang terinstal Apache
-    
-    <img src="./gambar/test_apache.JPG">
-
-
+    <img src="./images/periksa apache.png">
 
 ## Instalasi Database
 Setelah memiliki server web yang aktif dan berjalan, perlu menginstal sistem basis data untuk dapat menyimpan dan mengelola data untuk situs. Di Debian, metapackage mysql-server, yang secara tradisional digunakan untuk menginstal server MySQL, digantikan oleh default-mysql-server. Metapackage ini merujuk MariaDB, garpu komunitas dari server MySQL asli oleh Oracle, dan saat ini merupakan server basis data default yang kompatibel dengan MySQL yang tersedia di repositori manajer paket berbasis Debian.
@@ -64,22 +63,16 @@ Setelah memiliki server web yang aktif dan berjalan, perlu menginstal sistem bas
     ```
     sudo apt install mariadb-server
     ```
-    <img src="./gambar/install_MySQL_server.JPG">
-
+    <img src="./images/install database.png">
 - Setelah proses instalasi selesai, kemudian cek status apakah MySQL sudah berjalan dengan perintah:
-
     ```
-    sudo service mysql status
+    sudo systemctl status mysql
     ```
-
-    <img src="./gambar/mySQL_status.JPG">
-
+    <img src="./images/status database.png">
 - Untuk melihat versi MySQL :
-
     ```
     mysqladmin -u root -p version
     ```
-
     <img src="./gambar/mysql_version.JPG">
 
 ## Instalasi PHP
@@ -88,12 +81,12 @@ PHP adalah komponen pengaturan Anda yang akan memproses kode untuk menampilkan k
     ```
     sudo apt install php libapache2-mod-php php-mysql
     ```
-    <img src="./gambar/install_PHP.JPG">
+    <img src="./images/install php.png">
 - Setelah instalasi selesai, jalankan perintah berikut untuk mengecek versi PHP
     ```
     php -v
     ```
-    <img src="./gambar/php_version.JPG">
+    <img src="./images/cek versi php.png">
 
 ## Instalasi FTP Server (VSFTPD)
 FTP, kependekan dari File Transfer Protocol, adalah protokol populer untuk mentransfer file ke dan dari server FTP. Namun, itu penuh dengan risiko keamanan karena mengirimkan data dan informasi sensitif seperti nama pengguna dan kata sandi dalam teks biasa. VSFTPD (Daemon FTP Sangat Aman) adalah server FTP yang cepat, aman, dan stabil yang menggunakan enkripsi untuk mengamankan data yang dipertukarkan dengan server.
@@ -101,23 +94,22 @@ FTP, kependekan dari File Transfer Protocol, adalah protokol populer untuk mentr
     ```
     sudo apt install vsftpd
     ```
-    <img src="./gambar/install_ProFTPD.JPG">
- -  Setelah diinstal, vsftpd dimulai secara otomatis. Anda dapat mengonfirmasi ini dengan menjalankan perintah:
+    <img src="./images/install vsftpd.png">
+ -  Setelah diinstal, vsftpd dimulai secara otomatis. Anda dapat mengonfirmasi atau mengecek statusnya dengan menjalankan perintah:
     ```
     sudo systemctl status vsftpd
     ```
-    <img src="./gambar/install_ProFTPD.JPG">
-
-- Memulai layanan dan mengaktifkan proftpd dengan perintah:
+    <img src="./images/status vsftpd.png">
+- Jika layanan vsftpd tidak berjalan, masukkan perintah
     ```
-    sudo systemctl start proftpd
-    sudo systemctl enable proftpd
+    sudo systemctl start vsftpd
     ```
-
-- Cek status apakah sudah berjalan:
-
+- Kemudian aktifkan layanan untuk memulai saat boot.
     ```
-    sudo systemctl status proftpd
+    sudo systemctl enable vsftpd
     ```
-
-    <img src="./gambar/install _ProFTPD_2.JPG">
+- cek kembali dengan perintah berikut 
+     ```
+    sudo systemctl status vsftpd
+    ```
+    <img src="./images/status vsftpd.png">
