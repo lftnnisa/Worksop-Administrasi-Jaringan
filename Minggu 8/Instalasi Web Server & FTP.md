@@ -95,17 +95,20 @@ PHP adalah komponen pengaturan Anda yang akan memproses kode untuk menampilkan k
     ```
     <img src="./gambar/php_version.JPG">
 
-## Instalasi FTP Server (PROFTPD)
-- Melakukan instalasi PROFTPD:
-
+## Instalasi FTP Server (VSFTPD)
+FTP, kependekan dari File Transfer Protocol, adalah protokol populer untuk mentransfer file ke dan dari server FTP. Namun, itu penuh dengan risiko keamanan karena mengirimkan data dan informasi sensitif seperti nama pengguna dan kata sandi dalam teks biasa. VSFTPD (Daemon FTP Sangat Aman) adalah server FTP yang cepat, aman, dan stabil yang menggunakan enkripsi untuk mengamankan data yang dipertukarkan dengan server.
+- Install paket vsftpd
     ```
-    sudo apt install proftpd -y
+    sudo apt install vsftpd
     ```
-
+    <img src="./gambar/install_ProFTPD.JPG">
+ -  Setelah diinstal, vsftpd dimulai secara otomatis. Anda dapat mengonfirmasi ini dengan menjalankan perintah:
+    ```
+    sudo systemctl status vsftpd
+    ```
     <img src="./gambar/install_ProFTPD.JPG">
 
 - Memulai layanan dan mengaktifkan proftpd dengan perintah:
-
     ```
     sudo systemctl start proftpd
     sudo systemctl enable proftpd
