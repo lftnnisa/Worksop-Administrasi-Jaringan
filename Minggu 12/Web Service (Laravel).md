@@ -1,4 +1,4 @@
-# Instalasi Web Service & FTP
+# Instalasi Laravel
 ### Dosen Pengampu
 Dr. Ferry Astika Saputra ST, M.Sc
 ### Disusun Oleh
