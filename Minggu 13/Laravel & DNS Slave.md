@@ -1,10 +1,10 @@
-# Laravel
+# Laravel & DNS Slave
 ### Dosen Pengampu
 Dr. Ferry Astika Saputra ST, M.Sc
 ### Disusun Oleh
-Akbar Pratama Bimantoro - 3121600053<br>
 Lifta Annisa Husaina - 3121600045<br>
-Aditya Bagus Ferryanto - 31216000448<br>
+Akbar Pratama Bimantoro - 3121600053<br>
+Aditya Bagus Ferryanto - 3121600048<br>
 2 D4 IT B
 
 ---
