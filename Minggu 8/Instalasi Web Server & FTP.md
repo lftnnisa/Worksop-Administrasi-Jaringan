@@ -32,7 +32,7 @@ Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan bebera
     ```
     sudo ufw app list
     ```
-    <img src="./gambar/ufw app list.png">
+    <img src="./images/ufw app list.png">
 - Untuk mengizinkan apache diakses dari jaringan public yakni port 80 untuk HTTP, menjalankan perintah:
     ```
     sudo ufw allow 'WWW'
