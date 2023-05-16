@@ -32,7 +32,7 @@ Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan bebera
     ```
     sudo ufw app list
     ```
-    <img src="./gambar/ufw_app_list.JPG">
+    <img src="./gambar/ufw app list.png">
 - Untuk mengizinkan apache diakses dari jaringan public yakni port 80 untuk HTTP, menjalankan perintah:
     ```
     sudo ufw allow 'WWW'
@@ -43,7 +43,7 @@ Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan bebera
     sudo ufw status
     ```
 - Outputnya akan memberikan daftar lalu lintas HTTP yang diizinkan:
-    <img src="./gambar/ufw_app_list.JPG">
+    <img src="./images/status ufw.png">
 #### Memeriksa Web Server
 
 - Setelah instalasi apache dan konfigurasi firewall pada langkah sebelumnya, selanjutnya mengecek status dari apache dengan perintah dibawah ini.
@@ -51,7 +51,7 @@ Selama penginstalan, Apache mendaftarkan dirinya ke UFW untuk menyediakan bebera
     sudo systemctl status apache2
     ```
     
-    <img src="./gambar/check_apache_installation.JPG">
+    <img src="./images/status apache.png">
 
 - Untuk memastikan berjalan dengan cara mengakses alamat IP dari server atau komputer yang terinstal Apache
     <img src="./images/periksa apache.png">
@@ -73,7 +73,7 @@ Setelah memiliki server web yang aktif dan berjalan, perlu menginstal sistem bas
     ```
     mysqladmin -u root -p version
     ```
-    <img src="./gambar/mysql_version.JPG">
+    <img src="./images/versi database.png">
 
 ## Instalasi PHP
 PHP adalah komponen pengaturan Anda yang akan memproses kode untuk menampilkan konten dinamis kepada pengguna akhir. Itu dapat menjalankan skrip, terhubung ke basis data MariaDB Anda untuk mendapatkan informasi, dan menyerahkan konten yang diproses ke server web Anda untuk ditampilkan.
