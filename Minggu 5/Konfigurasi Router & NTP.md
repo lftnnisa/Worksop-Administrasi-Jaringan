@@ -127,7 +127,7 @@ Setelah setting virtual machine, install OS ubuntu pada virtual machine yang sud
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/02251bed6f81d99416bf9aca7376588bd22d6aa1/Minggu%203/images/InstallUbuntu.png">
 
 ---
-## Setting IP Static pada Virtual Machine
+## Setting IP Static pada Virtual Machine & Konfigurasi NTP
 1. Power up/nyalakan virtual machine anda pastikan konfigurasi jaringan ke bridge. Pastikan mendapatkan ip address dari dhcp server
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/7.png">
 <img src="https://github.com/lftnnisa/Worksop-Administrasi-Jaringan/blob/174c33f3747732a21b1894cce17327162818b2cc/Minggu%205/images/8.png">
