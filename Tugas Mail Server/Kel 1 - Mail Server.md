@@ -26,8 +26,9 @@ Berikut adalah langkah-langkahnya:
       apt install postfix dovecot-imapd dovecot-pop3d
       ```
 #### 2. Konfigurasi Postfix
-  - Setelah installasi selesai akan muncul message box, kemudian pilih internet site agar komunikasi email menggunakan protokol SMTP secara langsung. 
-  - Selanjutnya masukkan nama domain yang akan digunakan. 
+  - Setelah installasi selesai akan muncul message box, kemudian pilih internet site agar komunikasi email menggunakan protokol SMTP secara langsung.
+  - Selanjutnya masukkan nama domain yang akan digunakan.
+        <img src="./img/2.jpg">
   - Setelah itu, postfix akan menyelesaikan installasinya. Setelah Installasi selesai, edit file di /etc/postfix/main.cf dan tambahkan home_mailbox = Maildir/ pada baris paling bawah.
     ```
     sudo nano /etc/postfix/main.cf
@@ -52,7 +53,13 @@ Berikut adalah langkah-langkahnya:
     dpkg-reconfigure postfix
     ```
     
-   - Pilih beberapa pilihan dan isikan beberapa input yang akan muncul, sesuaikan dengan topology/konfigurasi sistem dan kebutuhan. 
+   - Pilih beberapa pilihan dan isikan beberapa input yang akan muncul, sesuaikan dengan topology/konfigurasi sistem dan kebutuhan.
+         <img src="./img/2.jpg">
+         <img src="./img/6.jpg">
+         <img src="./img/5.jpg">
+         <img src="./img/8.jpg">
+         <img src="./img/7.jpg">
+
    - Restart postfix service.
    
     ```
@@ -112,8 +119,13 @@ Berikut adalah langkah-langkahnya:
     ```
     apt install mariadb-server roundcube
     ```
-  - Pilih yes untuk membuat database secara otomatis oleh roundcube. 
-  - Masukkan password database roundcube. 
+  - Pilih yes untuk membuat database secara otomatis oleh roundcube.
+    <img src="./img/10.jpg">
+  - Masukkan password database roundcube.
+  
+      <img src="./img/9.jpg">
+      <img src="./img/11.jpg">
+
   - Edit file /etc/roundcube/config.inc.php.
     ```
     sudo nano /etc/roundcube/config.inc.php
