@@ -134,14 +134,14 @@ Berikut adalah langkah-langkahnya:
     ```
     ...
     // For example %n = mail.domain.tld, %t = domain.tld
-    $config['default_host'] = 'mail.kampus-02.takehome.com';
+    $config['default_host'] = 'mail.kampus-01.takehome.com';
     ...
     ```
   - Ganti smtp server dengan nama domain mail server.
     ```
     ...
     // For example %n = mail.domain.tld, %t = domain.tld
-    $config['smtp_server'] = 'mail.kampus-02.takehome.com';
+    $config['smtp_server'] = 'mail.kampus-01.takehome.com';
     ...
     ```
   - Ganti smtp port dari 587 ke 25.
@@ -169,9 +169,12 @@ Berikut adalah langkah-langkahnya:
     ```
     dpkg-reconfigure roundcube-core
     ```
-  - Kosongkan karena kita tidak menggunakan tls. 
+  - Kosongkan karena kita tidak menggunakan tls.
+        <img src="./img/12.jpg">
   - Pilih bahasa untuk roundcube. 
-  - Pilih no jika tidak ingin reinstall database yang telah dibuat. 
+     <img src="./img/15.jpg">
+
+  - Pilih no jika tidak ingin reinstall database yang telah dibuat.
   - Check pada pilihan apache dan uncheck lighttpd. 
   -Pilih yes untuk merestart web server. 
   - Keep local version jika tidak ingin merubah versi roundcube ke yang lebih terbaru. 
@@ -191,7 +194,7 @@ Berikut adalah langkah-langkahnya:
     ```
     ```
     <VirtualHost *:80>
-    ServerName mail.kampus-02.takehome.com
+    ServerName mail.kampus-01.takehome.com
     DocumentRoot /usr/share/roundcube
     </VirtualHost>
     ```
@@ -227,9 +230,9 @@ Berikut adalah langkah-langkahnya:
   Connected to mail.kampus-02.takehome.com
   Escape character is '^]'.
   220 debian ESMTP Postfix (Debian/GNU)
-  mail from: satu@mail.kampus-02.takehome.com
+  mail from: satu@mail.kampus-01.takehome.com
   250 2.1.0 Ok
-  rcpt to: dua@mail.kampus-02.takehome.com
+  rcpt to: dua@mail.kampus-01.takehome.com
   250 2.1.5 Ok
   data
   354 End data with <CR><LF>.<CR><LF>
