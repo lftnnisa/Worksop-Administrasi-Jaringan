@@ -227,7 +227,7 @@ Berikut adalah langkah-langkahnya:
   ```
   ```
   Trying 192.168.122.146...
-  Connected to mail.kampus-02.takehome.com
+  Connected to mail.kampus-01.takehome.com
   Escape character is '^]'.
   220 debian ESMTP Postfix (Debian/GNU)
   mail from: satu@mail.kampus-01.takehome.com
@@ -264,9 +264,9 @@ Berikut adalah langkah-langkahnya:
     .
     retr 1
     +OK 436 octets
-    Return-Path: <satu@mail.kampus-02.takehome.com>
-    X-Original-To: dua@mail.kampus-02.takehome.com
-    Delivered-To: dua@mail.kampus-02.takehome.com
+    Return-Path: <satu@mail.kampus-01.takehome.com>
+    X-Original-To: dua@mail.kampus-01.takehome.com
+    Delivered-To: dua@mail.kampus-01.takehome.com
     Received: from unknown (unknown [192.168.122.146])
         by debian (Postfix) with SMTP id 7DEAD11DF
         for <dua@mail.kampus-02.takehome.com>; Mon,  5 June 2023 06:38:33 +0700 (WIB)
