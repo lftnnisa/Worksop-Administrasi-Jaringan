@@ -281,7 +281,7 @@ Berikut adalah langkah-langkahnya:
     +OK Logging out.
     Connection closed by foreign host.
     ```
-- Selanjutnya buka web browser pada sisi client dan masukkan domain dari mail server (mail.kampus-02.takehome.com), maka akan muncul interface dari roundcube. Lalu login menggunakan salah satu user yang telah dibuat. 
+- Selanjutnya buka web browser pada sisi client dan masukkan domain dari mail server (mail.kampus-01.takehome.com), maka akan muncul interface dari roundcube. Lalu login menggunakan salah satu user yang telah dibuat. 
 
 - Klik pada compose dan isikan pesan untuk user lainnya. Lalu klik send. 
 
