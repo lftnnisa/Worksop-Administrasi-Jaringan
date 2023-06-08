@@ -282,7 +282,8 @@ Berikut adalah langkah-langkahnya:
     Connection closed by foreign host.
     ```
 - Selanjutnya buka web browser pada sisi client dan masukkan domain dari mail server (mail.kampus-01.takehome.com), maka akan muncul interface dari roundcube. Lalu login menggunakan salah satu user yang telah dibuat. 
-
+  <img src="./img/21.jpg">
 - Klik pada compose dan isikan pesan untuk user lainnya. Lalu klik send. 
-
+  <img src="./img/22.jpg">
 - Logout dan login ke user penerima, maka akan muncul pesan yang dikirim. 
+  <img src="./img/23.jpg">
